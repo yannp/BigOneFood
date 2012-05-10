@@ -1,0 +1,17 @@
+<div id="footer">
+  <div class="left">
+    <%= hook :footer_left do %>
+    <p>
+    	<a href="http://twitter.com/bigonefood">
+				<img alt="Twitter" src="/images/twitter_16.png">
+				<%= "Suivez-nous sur Twitter !" %>
+			</a>
+    </p>
+    <% end %>
+  </div>
+  <div class="right">
+	 	<%= "BigOneFood © 2011" %>
+    <%= hook :footer_right %>
+  </div>
+</div>   
+<%= render 'shared/google_analytics' %>

@@ -1,0 +1,21 @@
+body {
+  background: #F07830;
+}
+a {
+  color: #487890;
+}
+#header {
+  color: #487890;
+}
+#header a { color: #487890; }
+.pagination a.page {
+  color: #487890;
+}
+.pagination span.current_page {
+  border-color: #162f54;
+  background-color: #487890;
+}
+.price.selling { color: #487890; }
+ul#nav-bar {
+  font-size: 1.4em;
+}

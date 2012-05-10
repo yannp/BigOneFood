@@ -1,0 +1,18 @@
+en-GB:
+  number:
+    currency:
+      format:
+        format: "%u%n"
+        unit: "€"
+        precision: 2
+        separator: '.'
+        delimiter: ','
+fr-FR:
+  number:
+    currency:
+      format:
+        format: "%u%n"
+        unit: "€"
+        precision: 2
+        separator: '.'
+        delimiter: ','
